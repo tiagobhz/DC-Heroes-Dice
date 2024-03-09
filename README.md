@@ -8,3 +8,5 @@ A aplicação:
 - Compara o total de ação - oposição + resultado dos dados para ver se foi maior que 11 (sucesso);
 - Em caso de sucesso, calcula o Resultado (RAPs) que será efeito - resistência + metade do que exceder 11 no total da ação.
 - Demonstra isso em tela.
+
+Basta rodar o main e preencher os valores.
