@@ -4,10 +4,34 @@ from _rolarDados import *
 
 def rolar_teste():
     # pedir as quatro variáveis do teste
-    acao = eval(input("Informe o Valor de Ação: "))
-    oposicao = eval(input("Informe o Valor de Oposição: "))
-    efeito = eval(input("Informe o Valor de Efeito: "))
-    resistencia = eval(input("Informe o Valor de Resistência: "))
+    while True:
+        try:
+            acao = int(input("Informe o Valor de Ação: "))
+        except:
+            print("Digite um número inteiro")
+            continue
+        break
+    while True:
+        try:
+            oposicao = int(input("Informe o Valor de Oposição: "))
+        except:
+            print("Digite um número inteiro")
+            continue
+        break
+    while True:
+        try:
+            efeito = int(input("Informe o Valor de Efeito: "))
+        except:
+            print("Digite um número inteiro")
+            continue
+        break
+    while True:
+        try:
+            resistencia = int(input("Informe o Valor de Resistência: "))
+        except:
+            print("Digite um número inteiro")
+            continue
+        break
     # rolar os dados chamando a função
     dados = rolar_dados()
     # fazer ação - oposição + dados rolados para comparar abaixo
